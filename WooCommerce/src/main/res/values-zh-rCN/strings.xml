@@ -1,17 +1,61 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
-Translation-Revision-Date: 2019-03-06 12:54:06+0000
+Translation-Revision-Date: 2019-04-16 08:54:03+0000
 Plural-Forms: nplurals=1; plural=0;
 Generator: GlotPress/2.4.0-alpha
 Language: zh_CN
 -->
 <resources>
+    <string name="error_loading_image">无法加载图片</string>
+    <string name="product_status_draft">草稿</string>
+    <string name="product_status_pending">待处理</string>
+    <string name="product_status_private">非公开</string>
+    <string name="product_status_published">已发布</string>
+    <string name="product_view_affiliate">查看关联产品</string>
+    <string name="product_view_in_store">查看商店中的产品</string>
+    <string name="product_share_dialog_title">分享产品</string>
+    <string name="product_purchase_details">购买详情</string>
+    <string name="product_download_expiry_days">%d 天</string>
+    <string name="product_download_expiry">到期</string>
+    <string name="product_download_limit_count">%d 次下载</string>
+    <string name="product_download_limit">限制</string>
+    <string name="product_downloadable_files">可下载的文件</string>
+    <string name="product_downloads">下载</string>
+    <string name="product_reviews">评论</string>
+    <string name="product_total_orders">订单总数</string>
+    <string name="product_shipping_class">运费类</string>
+    <string name="product_size">尺寸</string>
+    <string name="product_weight">重量</string>
+    <string name="product_shipping">配送</string>
+    <string name="product_backorders">缺货</string>
+    <string name="product_stock_quantity">库存数量</string>
+    <string name="product_stock_status">库存状态</string>
+    <string name="product_sku">SKU</string>
+    <string name="product_sale_price">促销价格</string>
+    <string name="product_regular_price">正常价格</string>
+    <string name="product_price">价格</string>
+    <string name="product_inventory">库存</string>
+    <string name="product_pricing_and_inventory">定价和库存</string>
+    <string name="product_purchase_note">购买备注</string>
+    <string name="product_name">标题</string>
+    <string name="product_detail_fetch_product_error">抓取产品时出错</string>
+    <string name="add_order_note_invalid_order">订单无效</string>
+    <string name="order_shipment_tracking_shipped_date">配送日期：%s</string>
+    <string name="order_shipment_tracking_copy_to_clipboard">将跟踪编号复制到剪贴板</string>
+    <string name="order_shipment_tracking_section_cd">配送跟踪</string>
+    <string name="order_shipment_tracking_button">跟踪包裹</string>
+    <string name="order_shipment_tracking_number_clipboard">跟踪编号已复制到剪贴板</string>
+    <string name="order_shipment_tracking_number">跟踪编号</string>
+    <string name="order_shipment_tracking">跟踪</string>
+    <string name="error_copy_to_clipboard">复制到剪贴板时出错</string>
+    <string name="settings_switch_site_notifs_msg">已切换到 %s。您将只接收此商店的通知</string>
+    <string name="login_update_required_desc">此商店使用的 WooCommerce 版本较旧。请将您的商店升级至 WooCommerce 3.5 或更高版本，以结合使用商店和此应用程序。</string>
     <string name="promo_message_site_picker">现在，您可以在“设置”中轻点选定的商店来在商店之间切换。</string>
     <string name="promo_title_site_picker">正在经营多家商店？</string>
     <string name="promo_btn_try_it">立即试用</string>
     <string name="promo_btn_got_it">知道了</string>
     <string name="tooltip_site_switcher">轻点可切换商店</string>
-    <string name="site_picker_title">我的商店</string>
+    <string name="site_picker_title">选择商店</string>
     <string name="username">WordPress.com 用户名</string>
     <string name="settings_signout">注销</string>
     <string name="orderstatus_select_status">更改订单状态</string>
@@ -72,8 +116,6 @@ Language: zh_CN
     <string name="refresh_button">刷新</string>
     <string name="more_notifications">和另外 %d 个。</string>
     <string name="new_notifications">%d 条新通知</string>
-    <string name="dashboard_plugin_notice_message">此应用程序需要您在服务器上安装 WooCommerce 3.5。请尽快更新以便继续使用此应用程序。</string>
-    <string name="dashboard_plugin_notice_title">更新至 WooCommerce 3.5，继续使用此应用程序</string>
     <string name="about_version">版本 %s</string>
     <string name="about_tos">服务条款</string>
     <string name="about_publisher">发布者：Automattic, Inc</string>
@@ -96,7 +138,6 @@ Language: zh_CN
     <string name="support_contact_detail">请与我们快乐的工程师联系，他们可以帮助解答棘手的问题</string>
     <string name="support_contact">联系支持人员</string>
     <string name="support_faq_detail">答疑解惑</string>
-    <string name="support_faq">浏览我们的常见问题解答</string>
     <string name="support_subtitle">您希望我们如何为您提供帮助？</string>
     <string name="support_identity_input_dialog_email_label">电子邮件</string>
     <string name="support_identity_input_dialog_enter_email">请输入您的电子邮件地址</string>
@@ -131,7 +172,6 @@ Language: zh_CN
     <string name="xmlrpc_post_blocked_error">无法连接。您的主机阻止 POST 请求，app 需要\n该接口方可与您的站点通信。请联系您的托管服务提供商解决此问题。</string>
     <string name="xmlrpc_missing_method_error">无法连接。服务器上没有所需的 XML-RPC 方法。</string>
     <string name="invalid_site_url_message">请检查输入的站点 URL 是否有效</string>
-    <string name="no_site_error">无法连接到 WordPress 站点。此地址下没有有效的 WordPress\n站点。请检查您输入的站点地址 (URL)。</string>
     <string name="error_generic">发生错误</string>
     <string name="forgot_password">忘记密码？</string>
     <string name="email_invalid">请输入一个可用的电子邮件地址</string>

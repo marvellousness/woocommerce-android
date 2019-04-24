@@ -1,17 +1,61 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
-Translation-Revision-Date: 2019-03-05 15:54:02+0000
+Translation-Revision-Date: 2019-04-15 12:54:33+0000
 Plural-Forms: nplurals=2; plural=n != 1;
 Generator: GlotPress/2.4.0-alpha
 Language: nl
 -->
 <resources>
+    <string name="error_loading_image">Kan afbeelding niet laden</string>
+    <string name="product_status_draft">Concept</string>
+    <string name="product_status_pending">In behandeling</string>
+    <string name="product_status_private">Privé</string>
+    <string name="product_status_published">Gepubliceerd</string>
+    <string name="product_view_affiliate">Verwant product weergeven</string>
+    <string name="product_view_in_store">Product in winkel weergeven</string>
+    <string name="product_share_dialog_title">Je product delen</string>
+    <string name="product_purchase_details">Aankoopgegevens</string>
+    <string name="product_download_expiry_days">%d dagen</string>
+    <string name="product_download_expiry">Verloop</string>
+    <string name="product_download_limit_count">%d downloads</string>
+    <string name="product_download_limit">Limiet</string>
+    <string name="product_downloadable_files">Downloadbare bestanden</string>
+    <string name="product_downloads">Downloads</string>
+    <string name="product_reviews">Beoordelingen</string>
+    <string name="product_total_orders">Totaalaantal bestellingen</string>
+    <string name="product_shipping_class">Verzendingsklasse</string>
+    <string name="product_size">Afmetingen</string>
+    <string name="product_weight">Gewicht</string>
+    <string name="product_shipping">Verzending</string>
+    <string name="product_backorders">Nabestellingen</string>
+    <string name="product_stock_quantity">Aantal op voorraad</string>
+    <string name="product_stock_status">Voorraadstatus</string>
+    <string name="product_sku">SKU</string>
+    <string name="product_sale_price">Verkoopprijs</string>
+    <string name="product_regular_price">Reguliere prijs</string>
+    <string name="product_price">Prijs</string>
+    <string name="product_inventory">Inventaris</string>
+    <string name="product_pricing_and_inventory">Prijzen en inventaris</string>
+    <string name="product_purchase_note">Aankoopnotitie</string>
+    <string name="product_name">Titel</string>
+    <string name="product_detail_fetch_product_error">Fout bij ophalen product</string>
+    <string name="add_order_note_invalid_order">Ongeldige bestelling</string>
+    <string name="order_shipment_tracking_shipped_date">Verzonden op %s</string>
+    <string name="order_shipment_tracking_copy_to_clipboard">Volgnummer kopiëren naar klembord</string>
+    <string name="order_shipment_tracking_section_cd">Verzending bijhouden</string>
+    <string name="order_shipment_tracking_button">Pakket volgen</string>
+    <string name="order_shipment_tracking_number_clipboard">Volgnummer gekopieerd naar klembord</string>
+    <string name="order_shipment_tracking_number">Volgnummer</string>
+    <string name="order_shipment_tracking">Volgen</string>
+    <string name="error_copy_to_clipboard">Fout bij kopiëren naar klembord</string>
+    <string name="settings_switch_site_notifs_msg">Omgezet naar %s Je ontvangt alleen meldingen voor deze winkel</string>
+    <string name="login_update_required_desc">Deze winkel maakt gebruik van een oudere versie van WooCommerce. Upgrade je winkel naar WooCommerce 3.5 of hoger om deze app te kunnen gebruiken.</string>
     <string name="promo_message_site_picker">Je kunt nu omschakelen tussen winkels door in Instellingen op de geselecteerde winkel te tikken</string>
     <string name="promo_title_site_picker">Heb je meerdere winkels onder je beheer?</string>
     <string name="promo_btn_try_it">Probeer het nu</string>
     <string name="promo_btn_got_it">Duidelijk</string>
     <string name="tooltip_site_switcher">Tik om tussen winkels te schakelen</string>
-    <string name="site_picker_title">Mijn winkels</string>
+    <string name="site_picker_title">Kies winkel</string>
     <string name="username">Gebruikersnaam voor WordPress.com</string>
     <string name="settings_signout">Uitloggen</string>
     <string name="orderstatus_select_status">Bestelstatus wijzigen</string>
@@ -32,7 +76,6 @@ Language: nl
     <string name="share_store_dialog_title">Deel de URL van je winkel</string>
     <string name="share_store_button">Deel je winkel</string>
     <string name="wc_mark_all_read_success">Alle meldingen zijn gemarkeerd als gelezen</string>
-    <string name="login_update_required_desc">Voor deze app moet WooCommerce 3.5 op je server zijn geïnstalleerd. Om deze app te blijven gebruiken, moet je je winkel bijwerken.</string>
     <string name="login_update_required_title">Winkel bijwerken naar WooCommerce 3.5</string>
     <string name="login_verifying_site_error">Kan geen verbinding maken met %s</string>
     <string name="dismiss">Afbreken</string>
@@ -76,8 +119,6 @@ Language: nl
     <string name="refresh_button">Vernieuwen</string>
     <string name="more_notifications">en nog %d.</string>
     <string name="new_notifications">%d nieuwe meldingen</string>
-    <string name="dashboard_plugin_notice_message">Voor deze app moet WooCommerce 3.5 op je server zijn geïnstalleerd. Werk WooCommerce zo snel mogelijk bij om deze app te blijven gebruiken.</string>
-    <string name="dashboard_plugin_notice_title">Werk WooCommerce bij naar 3.5 om deze app te blijven gebruiken</string>
     <string name="about_version">Versie %s</string>
     <string name="about_tos">Servicevoorwaarden</string>
     <string name="about_publisher">Publisher: Automattic, Inc</string>
@@ -100,7 +141,6 @@ Language: nl
     <string name="support_contact_detail">Neem contact op met onze Happiness Engineers, die alle lastige vragen kunnen beantwoorden</string>
     <string name="support_contact">Neem contact op met ondersteuning</string>
     <string name="support_faq_detail">Krijg antwoord op de vragen die je hebt</string>
-    <string name="support_faq">Bekijk onze veelgestelde vragen</string>
     <string name="support_subtitle">Hoe kunnen we helpen?</string>
     <string name="support_identity_input_dialog_email_label">E-mail</string>
     <string name="support_identity_input_dialog_enter_email">Voer je e-mailadres in</string>
@@ -135,7 +175,6 @@ Language: nl
     <string name="xmlrpc_post_blocked_error">Kan geen verbinding maken. Je host blokkeert POST-aanvragen en de app heeft\n dat nodig om met je site te communiceren. Neem contact op met je host om dit probleem op te lossen.</string>
     <string name="xmlrpc_missing_method_error">Kon geen verbinding maken. Vereiste XML-RPC-methoden ontbreken op de server.</string>
     <string name="invalid_site_url_message">Controleer of de ingevoerde site-URL geldig is</string>
-    <string name="no_site_error">Kan geen verbinding maken met de WordPress-site. Er is geen geldige WordPress-site op dit\n adres. Controleer of je het goede websiteadres (URL) hebt opgegeven.</string>
     <string name="error_generic">Er heeft zich een fout voorgedaan</string>
     <string name="forgot_password">Wachtwoord vergeten?</string>
     <string name="email_invalid">Voer een geldig e-mailadres in</string>

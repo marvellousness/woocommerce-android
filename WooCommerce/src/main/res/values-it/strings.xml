@@ -1,17 +1,61 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
-Translation-Revision-Date: 2019-03-05 10:54:02+0000
+Translation-Revision-Date: 2019-04-15 14:54:03+0000
 Plural-Forms: nplurals=2; plural=n != 1;
 Generator: GlotPress/2.4.0-alpha
 Language: it
 -->
 <resources>
+    <string name="error_loading_image">Impossibile caricare le immagini</string>
+    <string name="product_status_draft">Bozza</string>
+    <string name="product_status_pending">In attesa</string>
+    <string name="product_status_private">Privato</string>
+    <string name="product_status_published">Pubblicato</string>
+    <string name="product_view_affiliate">Visualizza il prodotto affiliato</string>
+    <string name="product_view_in_store">Visualizza il prodotto in negozio</string>
+    <string name="product_share_dialog_title">Condividi il prodotto</string>
+    <string name="product_purchase_details">Dettagli dell\'acquisto</string>
+    <string name="product_download_expiry_days">%d giorni</string>
+    <string name="product_download_expiry">Scadenza</string>
+    <string name="product_download_limit_count">%d download</string>
+    <string name="product_download_limit">Limiti</string>
+    <string name="product_downloadable_files">File scaricabili</string>
+    <string name="product_downloads">Download</string>
+    <string name="product_reviews">Recensioni</string>
+    <string name="product_total_orders">Ordini totali</string>
+    <string name="product_shipping_class">Classe di spedizione</string>
+    <string name="product_size">Dimensione</string>
+    <string name="product_weight">Peso</string>
+    <string name="product_shipping">Spedizione</string>
+    <string name="product_backorders">Ordini arretrati</string>
+    <string name="product_stock_quantity">Quantità in magazzino</string>
+    <string name="product_stock_status">Stato del magazzino</string>
+    <string name="product_sku">SKU</string>
+    <string name="product_sale_price">Prezzo di vendita</string>
+    <string name="product_regular_price">Prezzo standard</string>
+    <string name="product_price">Prezzo</string>
+    <string name="product_inventory">Inventario</string>
+    <string name="product_pricing_and_inventory">Prezzi e inventario</string>
+    <string name="product_purchase_note">Nota acquisto</string>
+    <string name="product_name">Titolo</string>
+    <string name="product_detail_fetch_product_error">Errore durante recupero prodotto</string>
+    <string name="add_order_note_invalid_order">Ordine non valido</string>
+    <string name="order_shipment_tracking_shipped_date">Spedito il giorno %s</string>
+    <string name="order_shipment_tracking_copy_to_clipboard">Copia il numero di tracciabilità negli appunti</string>
+    <string name="order_shipment_tracking_section_cd">Tracciabilità della spedizione</string>
+    <string name="order_shipment_tracking_button">Traccia pacchetto</string>
+    <string name="order_shipment_tracking_number_clipboard">Numero di tracciabilità copiato negli appunti</string>
+    <string name="order_shipment_tracking_number">Numero di tracciabilità</string>
+    <string name="order_shipment_tracking">Tracciabilità</string>
+    <string name="error_copy_to_clipboard">Errore durante la copia negli appunti</string>
+    <string name="settings_switch_site_notifs_msg">Passato a %s. Riceverai notifiche solo per questo negozio</string>
+    <string name="login_update_required_desc">Questo negozio utilizza una versione meno recente di WooCommerce. Aggiorna il tuo negozio a WooCommerce 3.5 o versioni superiori per usare questa app.</string>
     <string name="promo_message_site_picker">Puoi passare da un negozio all’altro toccando il negozio selezionato in Impostazioni</string>
     <string name="promo_title_site_picker">Eseguire più negozi?</string>
     <string name="promo_btn_try_it">Prova ora</string>
     <string name="promo_btn_got_it">OK</string>
     <string name="tooltip_site_switcher">Tocca per passare da un negozio all’altro</string>
-    <string name="site_picker_title">I miei negozi</string>
+    <string name="site_picker_title">Scegli negozio</string>
     <string name="username">Username WordPress.com</string>
     <string name="settings_signout">Esci da questo account</string>
     <string name="orderstatus_select_status">Modifica lo stato dell\'ordine</string>
@@ -32,7 +76,6 @@ Language: it
     <string name="share_store_dialog_title">Condividi URL del negozio</string>
     <string name="share_store_button">Condividi il negozio</string>
     <string name="wc_mark_all_read_success">Tutte le notifiche segnalate come lette</string>
-    <string name="login_update_required_desc">Questa app richiede WooCommerce 3.5 sul tuo server. Per continuare ad usare questa app, aggiorna il tuo negozio.</string>
     <string name="login_update_required_title">Aggiorna il negozio su WooCommerce 3.5</string>
     <string name="login_verifying_site_error">Impossibile eseguire la connessione a %s</string>
     <string name="dismiss">Rimuovi</string>
@@ -76,8 +119,6 @@ Language: it
     <string name="refresh_button">Aggiorna</string>
     <string name="more_notifications">e altre %d.</string>
     <string name="new_notifications">%d nuove notifiche</string>
-    <string name="dashboard_plugin_notice_message">Questa app richiede l\'installazione di WooCommerce 3.5 sul tuo server. Aggiorna appena possibile per continuare utilizzare questa app.</string>
-    <string name="dashboard_plugin_notice_title">Aggiorna a WooCommerce 3.5 per continuare utilizzare questa app</string>
     <string name="about_version">Versione %s</string>
     <string name="about_tos">Termini di servizio</string>
     <string name="about_publisher">Editore: Automattic, Inc</string>
@@ -100,7 +141,6 @@ Language: it
     <string name="support_contact_detail">Contatta i nostri Happiness Engineer che possono aiutarti a rispondere a domande difficili</string>
     <string name="support_contact">Contatta il supporto</string>
     <string name="support_faq_detail">Ottieni risposte alle tue domande</string>
-    <string name="support_faq">Leggi le nostre FAQ</string>
     <string name="support_subtitle">Come possiamo aiutarti?</string>
     <string name="support_identity_input_dialog_email_label">E-mail</string>
     <string name="support_identity_input_dialog_enter_email">Inserisci il tuo indirizzo e-mail</string>
@@ -135,7 +175,6 @@ Language: it
     <string name="xmlrpc_post_blocked_error">Non è possibile connettersi. Il tuo host sta bloccando le richieste POST ma queste sono necessarie al corretto funzionamento dell\'app\n per comunicare con il tuo sito. Contatta il tuo fornitore del servizio di hosting per risolvere questo problema.</string>
     <string name="xmlrpc_missing_method_error">Non è possibile connettersi. Sul server mancano i necessari metodi XML-RPC</string>
     <string name="invalid_site_url_message">Controlla che l\'URL del sito sia valido</string>
-    <string name="no_site_error">Non è possibile connettersi al sito WordPress. Non è presente alcun sito WordPress valido a questo\n indirizzo. Controlla l\'indirizzo del sito (URL) che hai inserito.</string>
     <string name="error_generic">Si è verificato un errore</string>
     <string name="forgot_password">Password dimenticata?</string>
     <string name="email_invalid">Inserisci un indirizzo e-mail valido</string>

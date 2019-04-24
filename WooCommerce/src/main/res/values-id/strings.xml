@@ -1,17 +1,61 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
-Translation-Revision-Date: 2019-03-05 11:54:02+0000
+Translation-Revision-Date: 2019-04-16 07:54:03+0000
 Plural-Forms: nplurals=2; plural=n > 1;
 Generator: GlotPress/2.4.0-alpha
 Language: id
 -->
 <resources>
+    <string name="error_loading_image">Tidak dapat memuat gambar</string>
+    <string name="product_status_draft">Konsep</string>
+    <string name="product_status_pending">Menunggu Persetujuan</string>
+    <string name="product_status_private">Privat</string>
+    <string name="product_status_published">Dipublikasikan</string>
+    <string name="product_view_affiliate">Lihat produk afiliasi</string>
+    <string name="product_view_in_store">Lihat produk di toko</string>
+    <string name="product_share_dialog_title">Bagikan produk Anda</string>
+    <string name="product_purchase_details">Detail pembelian</string>
+    <string name="product_download_expiry_days">%d hari</string>
+    <string name="product_download_expiry">Tanggal Kedaluwarsa</string>
+    <string name="product_download_limit_count">%d unduhan</string>
+    <string name="product_download_limit">Batas</string>
+    <string name="product_downloadable_files">File yang dapat diunduh</string>
+    <string name="product_downloads">Unduhan</string>
+    <string name="product_reviews">Ulasan</string>
+    <string name="product_total_orders">Total pesanan</string>
+    <string name="product_shipping_class">Kelas pengiriman</string>
+    <string name="product_size">Ukuran</string>
+    <string name="product_weight">Berat</string>
+    <string name="product_shipping">Pengiriman</string>
+    <string name="product_backorders">Pesanan tunda</string>
+    <string name="product_stock_quantity">Jumlah stok</string>
+    <string name="product_stock_status">Status stok</string>
+    <string name="product_sku">SKU</string>
+    <string name="product_sale_price">Harga obral</string>
+    <string name="product_regular_price">Harga normal</string>
+    <string name="product_price">Harga</string>
+    <string name="product_inventory">Persediaan</string>
+    <string name="product_pricing_and_inventory">Harga dan persediaan</string>
+    <string name="product_purchase_note">Catatan pembelian</string>
+    <string name="product_name">Judul</string>
+    <string name="product_detail_fetch_product_error">Terjadi error saat mengambil produk</string>
+    <string name="add_order_note_invalid_order">Pesanan tidak valid</string>
+    <string name="order_shipment_tracking_shipped_date">Dikirimkan %s</string>
+    <string name="order_shipment_tracking_copy_to_clipboard">Salin nomor pelacakan ke clipboard</string>
+    <string name="order_shipment_tracking_section_cd">Pelacakan pengiriman</string>
+    <string name="order_shipment_tracking_button">Lacak paket</string>
+    <string name="order_shipment_tracking_number_clipboard">Nomor pelacakan disalin ke clipboard</string>
+    <string name="order_shipment_tracking_number">Nomor Pelacakan</string>
+    <string name="order_shipment_tracking">Pelacakan</string>
+    <string name="error_copy_to_clipboard">Terjadi error saat menyalin ke clipboard</string>
+    <string name="settings_switch_site_notifs_msg">Beralih ke %s. Anda hanya akan menerima pemberitahuan untuk toko ini</string>
+    <string name="login_update_required_desc">Toko ini menggunakan WooCommerce versi lama. Upgrade toko Anda ke WooCommerce 3.5 atau yang lebih baru agar dapat menggunakannya dengan aplikasi ini.</string>
     <string name="promo_message_site_picker">Sekarang Anda dapat beralih antartoko dengan mengetuk toko yang dipilih di Pengaturan</string>
     <string name="promo_title_site_picker">Mengelola beberapa toko?</string>
     <string name="promo_btn_try_it">Coba sekarang</string>
     <string name="promo_btn_got_it">Saya mengerti</string>
     <string name="tooltip_site_switcher">Ketuk untuk beralih toko</string>
-    <string name="site_picker_title">Toko saya</string>
+    <string name="site_picker_title">Pilih toko</string>
     <string name="username">Nama pengguna WordPress.com</string>
     <string name="settings_signout">Logout</string>
     <string name="orderstatus_select_status">Ubah status pesanan</string>
@@ -32,7 +76,6 @@ Language: id
     <string name="share_store_dialog_title">Bagikan URL toko Anda</string>
     <string name="share_store_button">Bagikan toko Anda</string>
     <string name="wc_mark_all_read_success">Semua pemberitahuan ditandai sudah dibaca</string>
-    <string name="login_update_required_desc">Aplikasi ini memerlukan WooCommerce 3.5 di server Anda. Agar dapat terus menggunakan aplikasi ini, harap perbarui toko Anda.</string>
     <string name="login_update_required_title">Perbarui Toko ke WooCommerce 3.5</string>
     <string name="login_verifying_site_error">Tidak dapat terhubung ke %s</string>
     <string name="dismiss">Selesai</string>
@@ -76,8 +119,6 @@ Language: id
     <string name="refresh_button">Segarkan</string>
     <string name="more_notifications">dan %d lainnya.</string>
     <string name="new_notifications">%d pemberitahuan baru</string>
-    <string name="dashboard_plugin_notice_message">Aplikasi ini mewajibkan Anda menginstal WooCommerce 3.5 di server Anda. Perbarui sesegera mungkin untuk terus menggunakan aplikasi ini.</string>
-    <string name="dashboard_plugin_notice_title">Perbarui ke WooCommerce 3.5 untuk terus menggunakan aplikasi ini</string>
     <string name="about_version">Versi %s</string>
     <string name="about_tos">Ketentuan layanan</string>
     <string name="about_publisher">Penerbit: Automattic, Inc</string>
@@ -100,7 +141,6 @@ Language: id
     <string name="support_contact_detail">Hubungi Happiness Engineer kami yang dapat membantu menjawab pertanyaan sulit</string>
     <string name="support_contact">Hubungi dukungan</string>
     <string name="support_faq_detail">Dapatkan jawaban atas pertanyaan Anda</string>
-    <string name="support_faq">Telusuri Tanya Jawab Umum kami</string>
     <string name="support_subtitle">Apa yang dapat kami bantu?</string>
     <string name="support_identity_input_dialog_email_label">Email</string>
     <string name="support_identity_input_dialog_enter_email">Masukkan alamat email Anda</string>
@@ -135,7 +175,6 @@ Language: id
     <string name="xmlrpc_post_blocked_error">Tidak dapat terhubung. Host Anda memblokir permintaan POST yang dibutuhkan aplikasi\n agar dapat berkomunikasi dengan situs Anda. Hubungi host Anda untuk mengatasi masalah ini.</string>
     <string name="xmlrpc_missing_method_error">Tidak dapat terhubung. Metode XML-RPC yang diperlukan tidak ditemukan di server.</string>
     <string name="invalid_site_url_message">Pastikan URL situs yang dimasukkan sudah valid</string>
-    <string name="no_site_error">Tidak dapat terhubung ke situs WordPress. Tidak ada situs WordPress yang valid di\n alamat ini. Periksa alamat situs (URL) yang Anda masukkan.</string>
     <string name="error_generic">Terjadi galat</string>
     <string name="forgot_password">Lupa password Anda?</string>
     <string name="email_invalid">Masukkan alamat email yang sah</string>

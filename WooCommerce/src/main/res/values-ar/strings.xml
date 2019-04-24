@@ -1,17 +1,61 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
-Translation-Revision-Date: 2019-03-04 19:54:02+0000
+Translation-Revision-Date: 2019-04-16 13:54:03+0000
 Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 && n%100<=10 ? 3 : n%100>=11 && n%100<=99 ? 4 : 5;
 Generator: GlotPress/2.4.0-alpha
 Language: ar
 -->
 <resources>
+    <string name="error_loading_image">Unable to load image</string>
+    <string name="product_status_draft">مسودة</string>
+    <string name="product_status_pending">معلّق</string>
+    <string name="product_status_private">خاص</string>
+    <string name="product_status_published">منشور</string>
+    <string name="product_view_affiliate">View affiliate product</string>
+    <string name="product_view_in_store">View product on store</string>
+    <string name="product_share_dialog_title">Share your product</string>
+    <string name="product_purchase_details">Purchase details</string>
+    <string name="product_download_expiry_days">%d أيام</string>
+    <string name="product_download_expiry">Expiry</string>
+    <string name="product_download_limit_count">%d downloads</string>
+    <string name="product_download_limit">Limit</string>
+    <string name="product_downloadable_files">Downloadable files</string>
+    <string name="product_downloads">عمليات التنزيل</string>
+    <string name="product_reviews">مراجعات</string>
+    <string name="product_total_orders">Total orders</string>
+    <string name="product_shipping_class">Shipping class</string>
+    <string name="product_size">الحجم</string>
+    <string name="product_weight">الوزن</string>
+    <string name="product_shipping">الشحن</string>
+    <string name="product_backorders">Backorders</string>
+    <string name="product_stock_quantity">Stock quantity</string>
+    <string name="product_stock_status">Stock status</string>
+    <string name="product_sku">SKU</string>
+    <string name="product_sale_price">Sale price</string>
+    <string name="product_regular_price">Regular price</string>
+    <string name="product_price">Price</string>
+    <string name="product_inventory">Inventory</string>
+    <string name="product_pricing_and_inventory">Pricing and inventory</string>
+    <string name="product_purchase_note">Purchase note</string>
+    <string name="product_name">العنوان</string>
+    <string name="product_detail_fetch_product_error">Error fetching product</string>
+    <string name="add_order_note_invalid_order">طب غير صالح</string>
+    <string name="order_shipment_tracking_shipped_date">Shipped %s</string>
+    <string name="order_shipment_tracking_copy_to_clipboard">Copy tracking number to clipboard</string>
+    <string name="order_shipment_tracking_section_cd">Shipment tracking</string>
+    <string name="order_shipment_tracking_button">تعقب الحزمة</string>
+    <string name="order_shipment_tracking_number_clipboard">Tracking number copied to the clipboard</string>
+    <string name="order_shipment_tracking_number">Tracking Number</string>
+    <string name="order_shipment_tracking">التعقب</string>
+    <string name="error_copy_to_clipboard">حدث خطأ أثناء النسخ إلى الحافظة</string>
+    <string name="settings_switch_site_notifs_msg">تم التبديل إلى %s. لن تتلقى إلا تنبيهات لهذا المتجر</string>
+    <string name="login_update_required_desc">يستخدم هذا المتجر إصدارًا أقدم من WooCommerce. يرجى ترقية متجرك إلى WooCommerce 3.5 أو الإصدار الأعلى لاستخدامه مع هذا التطبيق.</string>
     <string name="promo_message_site_picker">يمكنك التبديل بين المتاجر بالنقر على المتجر المحدد في \"الإعدادات\"</string>
     <string name="promo_title_site_picker">هل تريد تشغيل متاجر متعددة؟</string>
     <string name="promo_btn_try_it">جرّبه الآن</string>
     <string name="promo_btn_got_it">فهمت</string>
     <string name="tooltip_site_switcher">انقر للتبديل بين المتاجر</string>
-    <string name="site_picker_title">متاجري</string>
+    <string name="site_picker_title">اختيار متجر</string>
     <string name="username">اسم مستخدم وردبرس.كوم</string>
     <string name="settings_signout">تسجيل الخروج</string>
     <string name="orderstatus_select_status">تغير حالة الطلب</string>
@@ -32,7 +76,6 @@ Language: ar
     <string name="share_store_dialog_title">مشاركة عنوان URL الخاص بمتجرك</string>
     <string name="share_store_button">مشاركة متجرك</string>
     <string name="wc_mark_all_read_success">تم وسم جميع التنبيهات كمقروءة</string>
-    <string name="login_update_required_desc">يتطلب هذا التطبيق WooCommerce 3.5 على خادمك. للاستمرار في استخدام هذا التطبيق، يرجى تحديث متجرك.</string>
     <string name="login_update_required_title">تحديث المتجر إلى WooCommerce 3.5</string>
     <string name="login_verifying_site_error">يتعذر الاتصال بـ %s</string>
     <string name="dismiss">تجاهل</string>
@@ -76,8 +119,6 @@ Language: ar
     <string name="refresh_button">تجديد</string>
     <string name="more_notifications">و%d إضافي.</string>
     <string name="new_notifications">%d من الإخطارات الجديدة</string>
-    <string name="dashboard_plugin_notice_message">يتطلب هذا التطبيق أن تقوم بتثبيت WooCommerce 3.5 على خادمك. يمكنك التحديث في أقرب وقت ممكن للاستمرار في استخدام هذا التطبيق.</string>
-    <string name="dashboard_plugin_notice_title">التحديث إلى WooCommerce 3.5 للاستمرار في استخدام هذا التطبيق</string>
     <string name="about_version">الإصدار %s</string>
     <string name="about_tos">شروط الخدمة</string>
     <string name="about_publisher">الناشر: Automattic, Inc</string>
@@ -100,7 +141,6 @@ Language: ar
     <string name="support_contact_detail">يمكنك الوصول إلى مهندسينا الذين تسرهم مساعدتك في الإجابة عن الأسئلة الصعبة</string>
     <string name="support_contact">الاتصال بالدعم</string>
     <string name="support_faq_detail">احصل على إجابات عن أسئلتك</string>
-    <string name="support_faq">استعراض الأسئلة المتداولة</string>
     <string name="support_subtitle">كيف نساعدك؟</string>
     <string name="support_identity_input_dialog_email_label">البريد الإلكتروني</string>
     <string name="support_identity_input_dialog_enter_email">يُرجى إدخال عنوان بريدك الإلكتروني</string>
@@ -135,7 +175,6 @@ Language: ar
     <string name="xmlrpc_post_blocked_error">تعذر الاتصال. يقوم المضيف الخاص بك بحظر طلبات POST، ويحتاج التطبيق إليها\n للاتصال بموقعك. يُرجى الاتصال بالمضيف لحل هذه المشكلة.</string>
     <string name="xmlrpc_missing_method_error">تعذر الاتصال. طرق XML-RPC غير موجودة على الخادم.</string>
     <string name="invalid_site_url_message">تحقق من أن عنوان URL الذي تم إدخاله في الموقع صحيح</string>
-    <string name="no_site_error">يتعذر الاتصال بموقع وردبرس. لا يوجد موقع وردبرس صالح في هذا\n العنوان. تحقق من عنوان الموقع (URL) الذي أدخلته.</string>
     <string name="error_generic">حدث خطأ</string>
     <string name="forgot_password">نسيت كلمة المرور؟</string>
     <string name="email_invalid">أدخل عنوان بريد إلكتروني صالح</string>

@@ -1,17 +1,61 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
-Translation-Revision-Date: 2019-03-05 16:54:01+0000
+Translation-Revision-Date: 2019-04-16 09:54:03+0000
 Plural-Forms: nplurals=2; plural=n != 1;
 Generator: GlotPress/2.4.0-alpha
 Language: he_IL
 -->
 <resources>
+    <string name="error_loading_image">אין אפשרות לטעון את התמונה</string>
+    <string name="product_status_draft">טיוטה</string>
+    <string name="product_status_pending">ממתין לאישור</string>
+    <string name="product_status_private">פרטי</string>
+    <string name="product_status_published">פורסם</string>
+    <string name="product_view_affiliate">צפייה במוצר הממומן</string>
+    <string name="product_view_in_store">צפייה במוצר בחנות</string>
+    <string name="product_share_dialog_title">שיתוף המוצר שלך</string>
+    <string name="product_purchase_details">פרטי הרכישה</string>
+    <string name="product_download_expiry_days">%d ימים</string>
+    <string name="product_download_expiry">תאריך תפוגה</string>
+    <string name="product_download_limit_count">%d הורדות</string>
+    <string name="product_download_limit">מגבלה</string>
+    <string name="product_downloadable_files">קבצים שניתנים להורדה</string>
+    <string name="product_downloads">הורדות</string>
+    <string name="product_reviews">חוות דעת</string>
+    <string name="product_total_orders">סך כל ההזמנות</string>
+    <string name="product_shipping_class">סיווג משלוח</string>
+    <string name="product_size">גודל</string>
+    <string name="product_weight">משקל</string>
+    <string name="product_shipping">משלוח</string>
+    <string name="product_backorders">הזמנות שבוצעו</string>
+    <string name="product_stock_quantity">כמות במלאי</string>
+    <string name="product_stock_status">מצב המלאי</string>
+    <string name="product_sku">מק\"ט</string>
+    <string name="product_sale_price">מחיר המבצע</string>
+    <string name="product_regular_price">מחיר רגיל</string>
+    <string name="product_price">מחיר</string>
+    <string name="product_inventory">מלאי</string>
+    <string name="product_pricing_and_inventory">תמחור ומלאי</string>
+    <string name="product_purchase_note">הערת רכישה</string>
+    <string name="product_name">כותרת</string>
+    <string name="product_detail_fetch_product_error">שגיאה בהבאת המוצר</string>
+    <string name="add_order_note_invalid_order">הזמנה לא תקפה</string>
+    <string name="order_shipment_tracking_shipped_date">הפריט %s נשלח</string>
+    <string name="order_shipment_tracking_copy_to_clipboard">להעתיק את מספר המעקב ללוח</string>
+    <string name="order_shipment_tracking_section_cd">מעקב משלוח</string>
+    <string name="order_shipment_tracking_button">לבצע מעקב אחר החבילה</string>
+    <string name="order_shipment_tracking_number_clipboard">מספר המעקב הועתק ללוח</string>
+    <string name="order_shipment_tracking_number">מספר מעקב</string>
+    <string name="order_shipment_tracking">מבצע מעקב</string>
+    <string name="error_copy_to_clipboard">שגיאה בעת העתקה ללוח</string>
+    <string name="settings_switch_site_notifs_msg">הוחלף אל %s. ההודעות שיתקבלו יהיו עבור החנות הזו בלבד</string>
+    <string name="login_update_required_desc">החנות הזאת משתמשת בגרסה ישנה של WooCommerce. עליך לעדכן את החנות שלך ל-WooCommerce 3.5 או לגרסה מאוחרת יותר כדי להשתמש באפליקציה זאת.</string>
     <string name="promo_message_site_picker">אפשר להחליף בין חנויות על ידי הקשה על החנות הנבחרת ב\'הגדרות\'</string>
     <string name="promo_title_site_picker">יש לך מספר חנויות?</string>
     <string name="promo_btn_try_it">כדאי לנסות עכשיו</string>
     <string name="promo_btn_got_it">הבנתי</string>
     <string name="tooltip_site_switcher">להקיש להחלפה בין חנויות</string>
-    <string name="site_picker_title">החנויות שלי</string>
+    <string name="site_picker_title">בחירת חנות</string>
     <string name="username">שם משתמש של WordPress.com</string>
     <string name="settings_signout">התנתקות</string>
     <string name="orderstatus_select_status">שינוי מצב ההזמנה</string>
@@ -32,7 +76,6 @@ Language: he_IL
     <string name="share_store_dialog_title">שיתוף כתובת ה-URL של החנות שלך</string>
     <string name="share_store_button">שיתוף החנות שלך</string>
     <string name="wc_mark_all_read_success">כל ההודעות מסומנות כ\'נקרא\'</string>
-    <string name="login_update_required_desc">כדי להשתמש באפליקציה זו, יש להתקין את WooCommerce 3.5 בשרת. כדי להמשיך את השימוש באפליקציה זאת, יש לעדכן את החנות שלך.</string>
     <string name="login_update_required_title">לעדכן את החנות ל-Woocommerce 3.5</string>
     <string name="login_verifying_site_error">אין אפשרות להתחבר אל %s</string>
     <string name="dismiss">סגור</string>
@@ -76,8 +119,6 @@ Language: he_IL
     <string name="refresh_button">רענון</string>
     <string name="more_notifications">ו-%d נוספים.</string>
     <string name="new_notifications">%d הודעות חדשות</string>
-    <string name="dashboard_plugin_notice_message">כדי להשתמש באפליקציה זו, יש להתקין את WooCommerce 3.5 בשרת. כדאי לבצע עדכון בהקדם האפשרי כדי להמשיך להשתמש באפליקציה זו.</string>
-    <string name="dashboard_plugin_notice_title">יש לעדכן ל-WooCommerce 3.5 כדי להמשיך להשתמש באפליקציה זו</string>
     <string name="about_version">גרסה %s</string>
     <string name="about_tos">תנאי שימוש</string>
     <string name="about_publisher">פורסם על ידי: Automattic, Inc‎</string>
@@ -100,7 +141,6 @@ Language: he_IL
     <string name="support_contact_detail">יצירת קשר עם נציגי התמיכה שלנו שיכולים לענות על שאלות קשות</string>
     <string name="support_contact">יצירת קשר עם התמיכה</string>
     <string name="support_faq_detail">קבלת מענה לשאלותיך</string>
-    <string name="support_faq">לעיון בשאלות הנפוצות שלנו</string>
     <string name="support_subtitle">כיצד נוכל לעזור?</string>
     <string name="support_identity_input_dialog_email_label">אימייל</string>
     <string name="support_identity_input_dialog_enter_email">יש להזין את כתובת האימייל שלך</string>
@@ -135,7 +175,6 @@ Language: he_IL
     <string name="xmlrpc_post_blocked_error">לא ניתן להתחבר. חברת האחסון שלך חוסמת בקשות POST, והאפליקציה דורשת את\n הפעלת האפשרות הזו כדי לבצע התקשרות עם האתר שלך. יש ליצור קשר עם חברת האחסון שלך כדי לפתור בעיה זו.</string>
     <string name="xmlrpc_missing_method_error">לא ניתן להתחבר. שיטות XML-RPC נדרשות חסרות בשרת.</string>
     <string name="invalid_site_url_message">יש לוודא שכתובת ה-URL של האתר שהוזנה תקפה</string>
-    <string name="no_site_error">לא ניתן היה להתחבר לאתר WordPress. אין אתר WordPress תקף ב-\n כתובת זו. בדוק את כתובת האתר (URL) שהזנת.</string>
     <string name="error_generic">אירעה שגיאה</string>
     <string name="forgot_password">איבדת את הסיסמה שלך?</string>
     <string name="email_invalid">הקלד כתובת אימייל חוקית</string>
